@@ -3,5 +3,16 @@
         "."
     ],
     "python.testing.unittestEnabled": false,
+<<<<<<< HEAD
     "python.testing.pytestEnabled": true
+=======
+    "python.testing.pytestEnabled": true,
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        ".",
+        "-p",
+        "test_*.py"
+    ]
+>>>>>>> 5a42d9d (added stuff)
 }
